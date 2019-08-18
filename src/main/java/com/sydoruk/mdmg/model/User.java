@@ -11,7 +11,6 @@ import javax.persistence.*;
 @Table(name = "users")
 public class User {
     @Id
-    @GeneratedValue
     private final Integer id;
     @Column(nullable = false, length = 45)
     private final String email;
