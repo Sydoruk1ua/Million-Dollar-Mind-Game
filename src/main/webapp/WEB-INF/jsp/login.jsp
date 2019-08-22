@@ -4,10 +4,10 @@
 <html>
 <head>
     <title>Sign in</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/mdb.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/addons/datatables.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/mdb.min.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/addons/datatables.min.css" rel="stylesheet">
 </head>
 <body class="hero-image">
 <%--HEADER--%>
@@ -49,7 +49,7 @@
     </div>
 </div>
 
-<object data="../sound/whatwherewhen.mp3">
+<object data="../../sound/whatwherewhen.mp3">
     <param name="autoplay" value="true">
 </object>
 <%--FOOTER--%>

@@ -4,10 +4,10 @@
 <html>
 <head>
     <title>Sign up</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/mdb.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/addons/datatables.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/mdb.min.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/addons/datatables.min.css" rel="stylesheet">
 </head>
 <body class="hero-image">
 <%--HEADER--%>

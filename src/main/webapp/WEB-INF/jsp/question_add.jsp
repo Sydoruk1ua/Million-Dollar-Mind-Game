@@ -4,10 +4,10 @@
 <html>
 <head>
     <title>Add Question</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/mdb.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/addons/datatables.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/mdb.min.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/addons/datatables.min.css" rel="stylesheet">
 </head>
 <body>
 <%--HADER--%>
@@ -167,15 +167,15 @@
 </div>
 <!-- SCRIPTS -->
 <!-- JQuery -->
-<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../../js/jquery-3.4.1.min.js"></script>
 <!-- Bootstrap tooltips -->
-<script type="text/javascript" src="../js/popper.min.js"></script>
+<script type="text/javascript" src="../../js/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="../js/mdb.min.js"></script>
+<script type="text/javascript" src="../../js/mdb.min.js"></script>
 <!-- MDBootstrap Datatables  -->
-<script type="text/javascript" src="../js/addons/datatables.min.js"></script>
+<script type="text/javascript" src="../../js/addons/datatables.min.js"></script>
 <script>
     var text_max_qen = 450;
     $('#count_message_qen').html(text_max_qen + ' remaining');

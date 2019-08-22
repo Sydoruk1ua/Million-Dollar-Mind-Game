@@ -8,13 +8,13 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="../css/mdb.min.css" rel="stylesheet">
+    <link href="../../css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
     <!-- MDBootstrap Datatables  -->
-    <link href="../css/addons/datatables.min.css" rel="stylesheet">
+    <link href="../../css/addons/datatables.min.css" rel="stylesheet">
 </head>
 <body>
 <%--HEADER--%>
@@ -57,15 +57,15 @@
 </div>
 <!-- SCRIPTS -->
 <!-- JQuery -->
-<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../../js/jquery-3.4.1.min.js"></script>
 <!-- Bootstrap tooltips -->
-<script type="text/javascript" src="../js/popper.min.js"></script>
+<script type="text/javascript" src="../../js/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="../js/mdb.min.js"></script>
+<script type="text/javascript" src="../../js/mdb.min.js"></script>
 <!-- MDBootstrap Datatables  -->
-<script type="text/javascript" src="../js/addons/datatables.min.js"></script>
+<script type="text/javascript" src="../../js/addons/datatables.min.js"></script>
 <script>
     $(document).ready(function () {
         $('#userTable').DataTable({

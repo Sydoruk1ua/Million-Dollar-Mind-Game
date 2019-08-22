@@ -10,7 +10,7 @@
 </head>
 <body>
 <%--HEADER--%>
-<jsp:include page="/jsp/common/header.jsp"/>
+<jsp:include page="/WEB-INF/jsp/common/header.jsp"/>
 <img src="${pageContext.request.contextPath}/img/error.png" style="width: 100%; height: 100%;">
 
 </body>
