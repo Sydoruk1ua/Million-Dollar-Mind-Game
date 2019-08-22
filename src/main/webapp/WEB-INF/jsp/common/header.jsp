@@ -13,8 +13,7 @@
     <div class="container-fluid">
         <div class="row">
             <nav class="navbar bg-dark navbar-expand-md navbar-light col justify-content-between">
-                <form action="app" class="text-light navbar-brand">
-                    <input type="hidden" name="command" value="main_page"/>
+                <form action="main" class="text-light navbar-brand">
                     <input type="submit" class="btn btn-info btn-md" value=<fmt:message key="home"/>>
                 </form>
 
@@ -44,19 +43,16 @@
                 </c:if>
                 <div class="navbar-nav">
                     <c:if test="${empty sessionScope.user}">
-                        <form action="app" class="text-light navbar-brand">
-                            <input type="hidden" name="command" value="login_page"/>
+                        <form action="login" class="text-light navbar-brand">
                             <input type="submit" class="btn btn-info btn-md" value="<fmt:message key="signin"/>">
                         </form>
-                        <form action="app" class="text-light navbar-brand">
-                            <input type="hidden" name="command" value="registration_page"/>
+                        <form action="registration" class="text-light navbar-brand">
                             <input type="submit" class="btn btn-info btn-md" value="<fmt:message key="signup"/>">
                         </form>
                     </c:if>
 
                     <c:if test="${not empty sessionScope.user}">
-                        <form action="app" class="text-light navbar-brand">
-                            <input type="hidden" name="command" value="game"/>
+                        <form action="game" class="text-light navbar-brand">
                             <input type="submit" class="btn btn-info btn-md" value=<fmt:message key="game"/>>
                         </form>
                         <form action="app" class="text-light navbar-brand">
@@ -66,8 +62,7 @@
                     </c:if>
 
                     <div class="nav-item">
-                        <form action="app">
-                            <input type="hidden" name="command" value="language"/>
+                        <form action="language">
                             <select class="input-group" name="lang" onchange="this.form.submit()">
                                 <option value="en" ${sessionScope.lang == 'en' ? 'selected="selected"' : ''}>
                                     English

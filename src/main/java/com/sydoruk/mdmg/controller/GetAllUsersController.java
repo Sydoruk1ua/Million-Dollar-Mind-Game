@@ -13,7 +13,7 @@ public class GetAllUsersController {
     UserService userService;
 
     @GetMapping("/users")
-    public String home(Model model) {
+    public String getAllUsers(Model model) {
         model.addAttribute("usersList", userService.findAll());
         return "users_list";
     }
