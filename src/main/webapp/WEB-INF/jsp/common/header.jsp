@@ -20,6 +20,12 @@
                 <form action="users" class="text-light navbar-brand">
                     <input type="submit" class="btn btn-info btn-md" value="<fmt:message key="users"/>">
                 </form>
+                <form action="questions" class="text-light navbar-brand">
+                    <input type="submit" class="btn btn-info btn-md" value="<fmt:message key="questions"/>">
+                </form>
+                <form action="add_question_page" class="text-light navbar-brand">
+                    <input type="submit" class="btn btn-info btn-md" value="<fmt:message key="question.add"/>">
+                </form>
                 <c:if test="${not empty sessionScope.userRole}">
                     <c:if test="${sessionScope.userRole == 'admin'}">
                         <form action="app" class="text-light navbar-brand">
