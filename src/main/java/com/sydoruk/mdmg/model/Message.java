@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Table(name = "messages")
 public class Message {
     @ManyToOne(targetEntity = User.class)
-    @JoinColumn(name = "user_email")
+    @JoinColumn(name = "user_email",referencedColumnName = "email")
     private final String userEmail;
     @Column(name = "message")
     private final String value;

@@ -1,5 +1,6 @@
 package com.sydoruk.mdmg.model;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,9 +14,7 @@ import java.util.Set;
 import static com.oracle.jrockit.jfr.FlightRecorder.isActive;
 
 @Entity
-@Getter
-@Setter
-@NoArgsConstructor
+@Data
 @Table(name = "users")
 public class User implements UserDetails {
     @Id

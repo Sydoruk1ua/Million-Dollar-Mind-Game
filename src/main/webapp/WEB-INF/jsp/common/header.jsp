@@ -51,6 +51,9 @@
                         </form>
                     </c:if>
 
+                    <form action="game" class="text-light navbar-brand">
+                        <input type="submit" class="btn btn-info btn-md" value=<fmt:message key="game"/>>
+                    </form>
                     <c:if test="${not empty sessionScope.user}">
                         <form action="game" class="text-light navbar-brand">
                             <input type="submit" class="btn btn-info btn-md" value=<fmt:message key="game"/>>
