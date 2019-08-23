@@ -31,16 +31,14 @@
             <td><fmt:message key="email"/></td>
             <td><fmt:message key="first.name"/></td>
             <td><fmt:message key="last.name"/></td>
-            <td><fmt:message key="user.role"/></td>
         </tr>
         </thead>
         <c:forEach var="user" items="${usersList}">
             <tr>
                 <td>${user.id}</td>
-                <td>${user.email}</td>
+                <td>${user.username}</td>
                 <td>${user.firstName}</td>
                 <td>${user.lastName}</td>
-                <td>${user.role.type}</td>
             </tr>
         </c:forEach>
     </table>

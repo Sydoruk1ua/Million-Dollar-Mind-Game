@@ -51,8 +51,8 @@
         <div class="col-1-4">
             <button class="open-button" onclick="openForm()"><fmt:message key="chat"/></button>
             <div class="form-popup" id="myForm">
-                <form action="app" class="form-container">
-                    <input type="hidden" name="command" value="game"/>
+                <form action="game" class="form-container">
+
                     <h1><fmt:message key="chat"/></h1>
                     <input type="hidden" name="nickname" id="nickname" value="${sessionScope.user}"/>
                     <label for="msg"><b><fmt:message key="message"/></b></label>

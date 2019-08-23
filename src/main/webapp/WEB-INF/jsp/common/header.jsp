@@ -17,7 +17,9 @@
                     <input type="submit" class="btn btn-info btn-md" value=<fmt:message key="home"/>>
                 </form>
 
-
+                <form action="users" class="text-light navbar-brand">
+                    <input type="submit" class="btn btn-info btn-md" value="<fmt:message key="users"/>">
+                </form>
                 <c:if test="${not empty sessionScope.userRole}">
                     <c:if test="${sessionScope.userRole == 'admin'}">
                         <form action="app" class="text-light navbar-brand">

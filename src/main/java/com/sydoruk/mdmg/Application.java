@@ -1,5 +1,6 @@
 package com.sydoruk.mdmg;
 
+import com.sydoruk.mdmg.model.Role;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

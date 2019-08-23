@@ -183,7 +183,7 @@ div.middle-chat {
 }
 
 .hero-image {
-    background-image: url(/static/img/owl.png); /* The image used */
+    background-image: url(../img/owl.png); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */

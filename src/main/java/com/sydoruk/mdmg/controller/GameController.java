@@ -20,7 +20,8 @@ public class GameController {
     private MessageService messageService;
 
     @GetMapping("/game")
-    public String getAllMessages(@RequestParam String nickname, @RequestParam String msg, Model model) {
+    public String getAllMessages(@RequestParam(required = false) String nickname,
+                                 @RequestParam(required = false) String msg, Model model) {
         Optional<Message> optionalMessage = getValidMessage(nickname, msg);
         if (!optionalMessage.isPresent()) {
             model.addAttribute("messageList", messageService.findAll());
