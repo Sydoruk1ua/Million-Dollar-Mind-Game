@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class GetAllUsersController {
     @Autowired
-    UserService userService;
+    private UserService userService;
 
     @GetMapping("/users")
     public String getAllUsers(Model model) {

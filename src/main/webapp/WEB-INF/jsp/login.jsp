@@ -27,15 +27,13 @@
                         <h3 class="text-center text-info"><fmt:message key="signin"/></h3>
                         <div class="form-group">
                             <label for="email"> <fmt:message key="email"/>:</label><br>
-                            <input id="email" type="email" name="email"
+                            <input id="email" type="email" name="username"
                                    placeholder="<fmt:message key="email.placeholder"/>" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label for="password"><fmt:message key="password"/>:</label><br>
                             <input type="password" name="password" id="password"
-                                   placeholder="<fmt:message key="password.placeholder"/>" class="form-control" required
-                                   pattern="^(?=.*?[A-ZА-Я])(?=.*?[a-zа-я])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{6,45}$"
-                                   title="<fmt:message key="password.verification.message"/>">
+                                   placeholder="<fmt:message key="password.placeholder"/>" class="form-control" required>
                         </div>
                         <div id="login-link" class="text-left">
                             <input type="submit" name="submit" class="btn btn-info btn-md"

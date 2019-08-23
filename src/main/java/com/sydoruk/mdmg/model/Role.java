@@ -1,18 +1,12 @@
 package com.sydoruk.mdmg.model;
 
-import lombok.Data;
+import org.springframework.security.core.GrantedAuthority;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+public enum Role implements GrantedAuthority {
+    USER; //TODO: add more roles
 
-@Entity
-@Data
-@Table(name = "roles")
-public class Role {
-    @Id
-    private Integer id;
-    @Column(nullable = false, length = 20)
-    private String type;
+    @Override
+    public String getAuthority() {
+        return name();
+    }
 }
